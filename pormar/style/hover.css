@@ -1,0 +1,29 @@
+/*------------- ABOVEFOLD -------------*/
+.abovefold_video_cover{ transition: scale 0.3s ease; }
+.abovefold_video_button:hover .abovefold_video_cover{ scale: 1.2 }
+/*------------- ABOVEFOLD -------------*/
+
+
+/*------------- MATERIALS -------------*/
+.material_nav_item_img_texture{ transition: width 0.3s ease, height 0.3s ease; }  
+.material_nav_item:hover .material_nav_item_img_texture{ width: 50%; height: 50%; }
+/*------------- MATERIALS -------------*/
+
+
+/*------------- PRODUCTS -------------*/
+.product_nav_item_img{ transition: scale 0.3s ease; }
+.product_list_element:hover .product_nav_item_img{ scale: 1.2; }
+.product_list_element_reversed:hover .product_nav_item_img{ scale: 1.2; }
+/*------------- PRODUCTS -------------*/
+
+
+/*------------- GALLERY -------------*/
+.section_gallery_list_element_img{ transition: scale 0.3s ease; }
+.section_gallery_list_element_span{ transition: opacity 0.3s ease; }
+
+.section_gallery_list_element:hover .section_gallery_list_element_img{ scale: 1.2; }
+.section_gallery_list_element:hover .section_gallery_list_element_span{ opacity: 1; }
+
+.section_gallery_list_element_desktop:hover .section_gallery_list_element_img{ scale: 1.2; }
+.section_gallery_list_element_desktop:hover .section_gallery_list_element_span{ opacity: 1; }
+/*------------- GALLERY -------------*/

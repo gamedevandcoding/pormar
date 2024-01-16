@@ -1,0 +1,28 @@
+/*------------- LOCATION -------------*/
+@keyframes location_iframe_loading_animation{ 0%{transform: rotate(0deg);} 100%{transform: rotate(360deg);} }
+
+.section_location{ display: block; width: 100%; height: fit-content; margin: 0px; padding: 0px; background-color: #ffffff; }
+.location_iframe_container{ display: flex; justify-content: center; align-items: center; position: relative; width: 100%; height: 460px; margin: 0px; padding: 0px; background-color: #f5f5f5; }
+.location_iframe_loading{ display: block; position: relative; width: auto; height: 20%; margin: 0px; padding: 0px; animation: location_iframe_loading_animation 1.3s linear infinite; animation-play-state: running; }
+#location_iframe_loading_full{ fill: #dcdcdc; } #location_iframe_loading_quarter{ fill: #b89359; }
+.location_iframe{ display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; margin: 0px; padding: 0px; }
+
+.location_text_container{ display: block; max-width: 1280px; height: fit-content; margin: 0px auto; padding: 80px 20px; }
+.location_text_title{ display: block; width: 100%; height: fit-content; margin: 0px; padding: 0px; font-family: 'Roboto', sans-serif; font-size: 38px; font-weight: 700; color: #606060; white-space: nowrap; }
+.location_text_paragraph{ display: block; width: 100%; height: fit-content; margin: 20px 0px; padding: 0px; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #606060; }
+.location_text_paragraph_span{ display: inline; font-weight: 700; }
+
+.location_text_list{ display: block; width: 100%; height: fit-content; margin: 0px; padding: 0px; padding-left: 18px; list-style-type: square; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #606060; box-sizing: border-box; }
+.location_text_list_element{ display: list-item; width: 100%; height: fit-content; margin: 0px; margin-bottom: 10px; padding: 0px; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #606060; line-height: 1.5; box-sizing: border-box; }
+.location_text_list_element:last-of-type{ margin-bottom: 0px; } .location_text_list_element::marker{ color: #b89359; }
+
+.location_text_btn_container{ display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 20px; width: 100%; height: fit-content; margin: 0px; margin-top: 40px; padding: 0px; }
+.location_text_btn{ display: block; width: 100%; height: fit-content; font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 400; text-align: center; margin: 0px; padding: 10px 0px; border: 0px; background-color: #b89359; color: #ffffff; cursor: pointer; }
+.location_text_link{ display: block; width: 100%; height: fit-content; font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 400; text-align: center; margin: 0px; padding: 10px 0px; border: 0px; background-color: transparent; color: #b89359; box-shadow: inset 0px 0px 0px 1px #b89359; cursor: pointer; }
+/*------------- LOCATION -------------*/
+
+
+
+
+
+@media screen and (max-width: 1080px){}

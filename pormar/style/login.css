@@ -1,0 +1,63 @@
+.main_container{ display: flex; flex-direction: row; align-items: stretch; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; margin: 0px; padding: 0px; background-color: #ffffff; }
+
+
+.main_section{ display: flex; flex-direction: row; justify-content: center; align-items: center; width: 100%; height: 100%; margin: 0px; padding: 0px; background-color: #e5e5e5; }
+.main_section:last-of-type{ background-color: #ffffff; }
+
+
+/*---------------- LOGIN MAIN ----------------*/
+.login_main_content{ display: block; flex: 1; max-width: 380px; height: fit-content; margin: 0px auto; padding: 20px; background-color: #000000; box-sizing: border-box; }
+
+.login_main_logo{ display: block; width: fit-content; height: 70px; margin: 0px auto; margin-top: 20px; padding: 0px; text-decoration: none; cursor: pointer; }
+.login_main_logo_svg{ display: block; width: auto; height: 100%; margin: 0px; padding: 0px; }
+.green_color{ fill: #259c42; } .white_color{ fill: #ffffff; } .red_color{ fill: #d6282e; }
+
+.login_form{ display: grid; grid-template-columns: 1fr; grid-gap: 25px; width: 100%; height: fit-content; margin: 0px; margin-top: 50px; padding: 0px; }
+.login_title{ display: block; width: 100%; height: fit-content; margin: 0px; padding: 0px; text-align: center; font-family: 'Roboto', sans-serif; font-size: 26px; font-weight: 400; color: #b89359; }
+.login_input{ display: block; width: 100%; height: fit-content; font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 400; color: #000000; margin: 0px; padding: 10px; border: 0px; box-sizing: border-box; outline: none; background-color: #ffffff; }
+.login_button{ display: block; width: 100%; height: fit-content; font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 400; color: #ffffff; margin: 0px; padding: 10px; border: 0px; box-sizing: border-box; outline: none; background-color: #b89359; cursor: pointer; }
+/*---------------- LOGIN MAIN ----------------*/
+
+
+/*---------------- LOGIN EXTRA ----------------*/
+.login_extra_content{ display: grid; grid-template-columns: 1fr; grid-gap: 40px; width: fit-content; height: fit-content; margin: 0px auto; padding: 0px; background-color: transparent; box-sizing: border-box; }
+
+.login_extra_logo{ display: block; width: fit-content; height: 70px; margin: 0px; margin-bottom: 20px; padding: 0px; text-decoration: none; cursor: pointer; }
+.login_extra_logo_svg{ display: block; width: auto; height: 100%; margin: 0px; padding: 0px; }
+.black_color{ fill: #000000; } .grey_color{ fill: #e5e5e5; }
+
+.login_nav_info{ display: block; width: fit-content; height: fit-content; margin: 0px; padding: 0px; }
+.login_nav_info_item{ display: block; width: 100%; height: fit-content; font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 400; text-align: left; margin: 0px; margin-bottom: 20px; padding: 0px; color: #b89359; cursor: pointer; }
+.login_nav_info_item_span{ display: block; width: 100%; height: fit-content; margin: 0px; padding: 0px; font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 700; margin: 0px; padding: 0px; }
+.login_nav_info_item .login_nav_info_item_span:last-of-type{ font-weight: 400; margin-top: 2px; color: #3c3c3c; }
+.login_nav_info_item:last-of-type{ margin-bottom: 0px; }
+
+.login_nav_social{ display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 20px; width: fit-content; height: fit-content; margin: 0px; padding: 0px; }
+.login_nav_social_item{ display: flex; justify-content: center; align-items: center; width: fit-content; height: auto; margin: 0px; padding: 0px; background-color: transparent; cursor: pointer; }
+.login_nav_social_item_svg{ display: block; width: 30px; height: auto; margin: 0px; padding: 0px; fill: #b89359; }
+
+.login_copyright_p{ display: block; width: fit-content; height: fit-content; font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: 400; margin: 0px; padding: 0px; color: #3c3c3c; }
+.login_copyright_p_breakline{ content: "" !important; display: block; margin-bottom: 2px !important; }
+/*---------------- LOGIN EXTRA ----------------*/
+
+
+
+@media screen and (max-width: 1080px){
+
+    .main_container{ flex-direction: column; }
+    .main_section{ display: block; height: fit-content; }
+
+    .login_main_content{ margin: 60px auto; }
+    .login_extra_content{ max-width: 380px; width: auto; margin: 60px auto; }
+
+}
+@media screen and (max-width: 480px){
+
+    .main_container{ display: block; }
+    .main_section{ display: block; height: fit-content; }
+
+    .login_form{ margin-bottom: 20px; }
+    .login_main_content{ width: 100%; max-width: none; margin: 0px; padding: 40px 20px; }
+    .login_extra_content{ width: 100%; max-width: none; margin: 0px; padding: 60px 20px; }
+
+}

@@ -1,0 +1,39 @@
+/*------------- JOBS -------------*/
+.section_jobs{ display: block; width: 100%; height: fit-content; margin: 0px; padding: 0px; padding-bottom: 60px; background-color: #f5f5f5; }
+.section_jobs_content{ display: block; width: 100%; height: fit-content; margin: 0px; padding: 0px; background: transparent; overflow: hidden; }
+
+.jobs_employer{ display: block; width: 100%; height: fit-content; margin: 0px; margin-bottom: 80px; padding: 0px 20px; padding-top: 80px; padding-bottom: 60px; background-color: #ffffff; box-sizing: border-box; }
+.jobs_employer_wrapper{ display: block; max-width: 1280px; height: fit-content; margin: 0px auto; padding: 0px; }
+.jobs_paragraph{ display: block; width: 100%; height: fit-content; margin: 0px; padding: 0px; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; line-height: 1.5; color: #303030; cursor: default; }
+.jobs_paragraph_extra{ display: inline; } .jobs_paragraph_breakline{ content: "" !important; display: block !important; margin-bottom: 16px !important; }
+.jobs_info{ display: flex; flex-direction: row; width: fit-content; height: fit-content; margin: 0px; padding: 0px; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; }
+.jobs_info_item{ display: flex; flex-direction: row; align-items: center; width: fit-content; height: fit-content; margin: 0px; margin-right: 20px; padding: 20px 0px; cursor: default; }
+.jobs_info_item_svg{ display: block; width: auto; min-width: 16px; height: 16px; margin: 0px; padding: 0px; padding-right: 10px; fill: #303030; cursor: pointer; }
+.jobs_info_item_span{ display: block; width: fit-content; height: fit-content; margin: 0px; padding: 0px; cursor: pointer; }
+#jobs_employer_title{ color: #b89359; }
+
+.jobs_position{ display: block; max-width: 1280px; height: fit-content; margin: 0px auto; padding: 0px 20px; }
+.jobs_title{ display: block; width: fit-content; height: fit-content; margin: 0px; margin-bottom: 20px; padding: 0px; font-family: 'Roboto', sans-serif; font-size: 38px; font-weight: 700; color: #303030; white-space: nowrap; }
+.jobs_nav{ display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 20px; width: 100%; height: fit-content; margin: 0px; padding: 0px; padding-bottom: 20px; }
+.jobs_nav_item{ display: block; width: 100%; height: fit-content; margin: 0px; padding: 20px; box-sizing: border-box; background-color: #ffffff; box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15); cursor: default; }
+.jobs_nav_item_h2{ display: block; width: fit-content; height: fit-content; margin: 0px; padding: 0px; font-family: 'Roboto', sans-serif; font-size: 24px; font-weight: 700; color: #b89359; cursor: pointer; }
+.jobs_nav_item_paragraph{ display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 3; width: 100%; height: fit-content; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 16px; line-height: 1.5; color: #303030; margin: 20px 0px; padding: 0px; cursor: default; }
+.jobs_nav_item_list{ display: flex; grid-template-columns: repeat(4, auto); grid-gap: 20px; width: 100%; height: fit-content; margin: 0px; padding: 0px; padding-top: 20px; list-style-type: none; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 14px; color: #606060; overflow: hidden; border: 0px; border-top: 1px solid #e0e0e0; }
+.jobs_nav_item_list_element, .jobs_nav_item_list_element_extra{ display: block; width: fit-content; height: fit-content; margin: 0px; padding: 0px; font-family: 'Roboto', sans-serif; font-weight: 400; white-space: nowrap; }
+/*------------- JOBS -------------*/
+
+
+
+@media screen and (max-width: 1080px){
+
+
+    .jobs_employer{ padding-top: 60px; }
+    .jobs_paragraph_extra{ display: none; }
+    .jobs_info{ display: block; margin: 10px 0px; margin-top: 20px; }
+    .jobs_info_item{ padding: 10px 0px; margin-right: 0px;  }
+    .jobs_nav{ grid-template-columns: 1fr; }
+    .jobs_nav_item_list_element_extra{ display: none; }
+    .jobs_nav_item_list{ display: flex; grid-template-columns: repeat(2, auto); }
+    
+
+}
